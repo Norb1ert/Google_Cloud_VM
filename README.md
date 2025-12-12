@@ -43,13 +43,13 @@ This project demonstrates a practical approach to securing a Google Cloud enviro
 
 ## Scope of Work
 
-* [cite_start]**Risk and configuration analysis** using Security Command Center.
-* [cite_start]**Identification and neutralization of threats**, including public buckets, open SSH/RDP ports, and VM non-compliance.
-* [cite_start]**Creation of a new VM instance** from a backup.
-* [cite_start]**Updating Firewall rules**, including blocking SSH/RDP/ICMP and implementing a deny-all inbound policy.
-* [cite_start]**Securing the Storage environment** by removing public access.
-* [cite_start]**Implementing least privilege principles** within IAM.
-* [cite_start]**Validation of changes** and reduction of High-Risk Findings.
+* **Risk and configuration analysis** using Security Command Center.
+* **Identification and neutralization of threats**, including public buckets, open SSH/RDP ports, and VM non-compliance.
+* **Creation of a new VM instance** from a backup.
+* **Updating Firewall rules**, including blocking SSH/RDP/ICMP and implementing a deny-all inbound policy.
+* **Securing the Storage environment** by removing public access.
+* **Implementing least privilege principles** within IAM.
+* **Validation of changes** and reduction of High-Risk Findings.
 
 ---
 
