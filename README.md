@@ -32,3 +32,33 @@ IAM – minimalizacja uprawnień
 Security Command Center (SCC) – Risk Overview, zgodność z normami
 
 Logging & Monitoring – walidacja zmian
+
+
+# Google_Cloud_Project
+**Infrastructure Hardening • Firewall • IAM • SCC • Compute Engine • Cloud Storage**
+
+This project demonstrates a practical approach to securing a Google Cloud environment through risk analysis, vulnerability identification, and the implementation of fixes compliant with Cloud Security Foundations principles.
+
+---
+
+## Scope of Work
+
+* [cite_start]**Risk and configuration analysis** using Security Command Center.
+* [cite_start]**Identification and neutralization of threats**, including public buckets, open SSH/RDP ports, and VM non-compliance.
+* [cite_start]**Creation of a new VM instance** from a backup.
+* [cite_start]**Updating Firewall rules**, including blocking SSH/RDP/ICMP and implementing a deny-all inbound policy.
+* [cite_start]**Securing the Storage environment** by removing public access.
+* [cite_start]**Implementing least privilege principles** within IAM.
+* [cite_start]**Validation of changes** and reduction of High-Risk Findings.
+
+---
+
+## GCP Services Used
+
+* **Compute Engine** – Snapshots and the creation of a new VM.
+* **VPC Firewall** – Rule modification and network segmentation.
+* **Cloud Storage** – Bucket analysis and access control.
+* **IAM** – Minimization of permissions.
+* **Security Command Center (SCC)** – Risk Overview and compliance verification.
+* **Logging & Monitoring** – Validation of implemented changes.
+
